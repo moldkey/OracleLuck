@@ -1,5 +1,61 @@
 # 🔮 OracleLuck
 
+**AI-powered Eastern Cultural Exploration Platform | 东方文化 × AI 阅读平台**
+
+[🌐 Website](https://oracleluck.com) [📱 App](https://app.oracleluck.com) [📚 Reading](https://reading.oracleluck.com)
+
+## 🌟 Features
+
+| Feature | Description | Link |
+|---------|-------------|------|
+| 🀄 **I Ching 64 Hexagrams** | AI-powered interpretations of the 3,000-year-old classic | [Explore →](https://oracleluck.com/iching) |
+| 🎭 **30+ Deity Chats** | Chat with Guanyin, Guan Gong, Athena, Anubis and more | [Chat →](https://app.oracleluck.com/chat) |
+| 🃏 **Tarot 78 Cards** | AI readings of Major & Minor Arcana | [Read →](https://reading.oracleluck.com/tarot) |
+| 🪷 **Guanyin Qian 100 Slips** | 100 traditional divination slips with stories & poems | [View →](https://oracleluck.com/guanyin-qian) |
+| 🔢 **BaZi / Zi Wei** | Chinese astrology and Four Pillars of Destiny | [Explore →](https://oracleluck.com/bazi) |
+| 🐉 **Chinese Zodiac** | AI-powered zodiac readings | [Explore →](https://oracleluck.com/zodiac) |
+| 🌍 **Trilingual** | Simplified Chinese, Traditional Chinese + English | — |
+| 🔮 **Interactive Divination** | Virtual I Ching coin toss, Tarot draw, Guanyin Qian | [Try →](https://app.oracleluck.com/divination) |
+| 📖 **Knowledge Base** | Full I Ching, Tarot, Constellation, Zodiac, and Divination libraries | [Reading →](https://reading.oracleluck.com) |
+
+## 🛠 Tech Stack
+
+- **Frontend**: [Next.js 15](https://nextjs.org) (App Router) + React + TypeScript + Tailwind CSS
+- **AI Engine**: [DeepSeek API](https://deepseek.com) for content generation and interpretations
+- **Database**: Supabase PostgreSQL (authentication & user data)
+- **Payment**: Creem.io (credit cards) + Alipay A2A
+- **Hosting**: Self-hosted on Ubuntu (Nginx, PM2, UFW)
+
+## 📚 Content Library
+
+- **reading.oracleluck.com** — The knowledge base (解说坊) covering:
+  - 64 I Ching hexagrams with in-depth explanations
+  - 22 Tarot Major Arcana + 56 Minor Arcana
+  - 12 Zodiac signs + 12 Chinese Zodiac animals
+  - 100 Guanyin Divination slips (trilingual: CN/TW/EN)
+  - BaZi (Four Pillars of Destiny) and Zi Wei Dou Shu basics
+  - 303 Dream interpretation pages (周公解梦, trilingual)
+- **taiyige.oracleluck.com** — Chinese classical texts library (太乙阁)
+
+## 🔗 Sister Projects
+
+- **[mj7.cn](https://mj7.cn)** — CNC machining, injection molding & die casting industry platform (模具/压铸/加工)
+- **[moldkey.com](https://moldkey.com)** — Manufacturing platform connecting global buyers with Chinese precision manufacturers
+- **[deepseeks.com.cn](https://deepseeks.com.cn)** — China manufacturing industry navigation & search engine (制造业出海导航)
+- **[oracleluck.com](https://oracleluck.com)** — Eastern cultural exploration platform (this project)
+
+## 🤝 Contributing
+
+Contributions are welcome! See our [issues page](https://github.com/moldkey/OracleLuck/issues) for open tasks.
+
+## 📄 License
+
+This project is for educational and cultural purposes. Content is generated using AI and should be used for entertainment and self-reflection only.
+
+---
+
+*Ancient Wisdom. Personal Insight. | 东方智慧，照见自己。*# 🔮 OracleLuck
+
 > **AI-powered Eastern Cultural Exploration Platform**
 > 东方文化 × AI 阅读平台
 
