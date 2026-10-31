@@ -1,171 +1,123 @@
-# 🔮 OracleLuck
+# 🔮 OracleLuck — 天啟好運
 
-**AI-powered Eastern Cultural Exploration Platform | 东方文化 × AI 阅读平台**
+**AI 玄學工具與知識庫 | AI Metaphysics Tools & Knowledge Base**
 
-[🌐 Website](https://oracleluck.com) [📱 App](https://app.oracleluck.com) [📚 Reading](https://reading.oracleluck.com)
-
-## 🌟 Features
-
-| Feature | Description | Link |
-|---------|-------------|------|
-| 🀄 **I Ching 64 Hexagrams** | AI-powered interpretations of the 3,000-year-old classic | [Explore →](https://oracleluck.com/iching) |
-| 🎭 **30+ Deity Chats** | Chat with Guanyin, Guan Gong, Athena, Anubis and more | [Chat →](https://app.oracleluck.com/chat) |
-| 🃏 **Tarot 78 Cards** | AI readings of Major & Minor Arcana | [Read →](https://reading.oracleluck.com/tarot) |
-| 🪷 **Guanyin Qian 100 Slips** | 100 traditional divination slips with stories & poems | [View →](https://oracleluck.com/guanyin-qian) |
-| 🔢 **BaZi / Zi Wei** | Chinese astrology and Four Pillars of Destiny | [Explore →](https://oracleluck.com/bazi) |
-| 🐉 **Chinese Zodiac** | AI-powered zodiac readings | [Explore →](https://oracleluck.com/zodiac) |
-| 🌍 **Trilingual** | Simplified Chinese, Traditional Chinese + English | — |
-| 🔮 **Interactive Divination** | Virtual I Ching coin toss, Tarot draw, Guanyin Qian | [Try →](https://app.oracleluck.com/divination) |
-| 📖 **Knowledge Base** | Full I Ching, Tarot, Constellation, Zodiac, and Divination libraries | [Reading →](https://reading.oracleluck.com) |
-
-## 🛠 Tech Stack
-
-- **Frontend**: [Next.js 15](https://nextjs.org) (App Router) + React + TypeScript + Tailwind CSS
-- **AI Engine**: [DeepSeek API](https://deepseek.com) for content generation and interpretations
-- **Database**: Supabase PostgreSQL (authentication & user data)
-- **Payment**: Creem.io (credit cards) + Alipay A2A
-- **Hosting**: Self-hosted on Ubuntu (Nginx, PM2, UFW)
-
-## 📚 Content Library
-
-- **reading.oracleluck.com** — The knowledge base (解说坊) covering:
-  - 64 I Ching hexagrams with in-depth explanations
-  - 22 Tarot Major Arcana + 56 Minor Arcana
-  - 12 Zodiac signs + 12 Chinese Zodiac animals
-  - 100 Guanyin Divination slips (trilingual: CN/TW/EN)
-  - BaZi (Four Pillars of Destiny) and Zi Wei Dou Shu basics
-  - 303 Dream interpretation pages (周公解梦, trilingual)
-- **taiyige.oracleluck.com** — Chinese classical texts library (太乙阁)
-
-## 🔗 Sister Projects
-
-- **[mj7.cn](https://mj7.cn)** — CNC machining, injection molding & die casting industry platform (模具/压铸/加工)
-- **[moldkey.com](https://moldkey.com)** — Manufacturing platform connecting global buyers with Chinese precision manufacturers
-- **[deepseeks.com.cn](https://deepseeks.com.cn)** — China manufacturing industry navigation & search engine (制造业出海导航)
-- **[oracleluck.com](https://oracleluck.com)** — Eastern cultural exploration platform (this project)
-
-## 🤝 Contributing
-
-Contributions are welcome! See our [issues page](https://github.com/moldkey/OracleLuck/issues) for open tasks.
-
-## 📄 License
-
-This project is for educational and cultural purposes. Content is generated using AI and should be used for entertainment and self-reflection only.
+[🌐 網站 Website](https://www.oracleluck.com) · [📚 知識庫](https://www.oracleluck.com/library/) · [🔮 AI 問事](https://www.oracleluck.com/chat/) · [💬 塔羅拍照解讀](https://www.oracleluck.com/tarot/photo/)
 
 ---
 
-*Ancient Wisdom. Personal Insight. | 东方智慧，照见自己。*# 🔮 OracleLuck
+## ✨ 這是什麼
 
-> **AI-powered Eastern Cultural Exploration Platform**
-> 东方文化 × AI 阅读平台
+OracleLuck 是 AI 驅動的**東西方玄學工具與知識庫**。所有解讀由真實曆法／排盤引擎計算，AI 依傳統框架說明，屬文化參考。
 
-[![Website](https://img.shields.io/badge/Web-oracleluck.com-gold)](https://oracleluck.com)
-[![App](https://img.shields.io/badge/App-app.oracleluck.com-purple)](https://app.oracleluck.com)
-[![Reading](https://img.shields.io/badge/Reading-reading.oracleluck.com-blue)](https://reading.oracleluck.com)
-
-OracleLuck is a **bilingual (Chinese/English)** platform exploring Eastern cultural classics — the I Ching (易经), Tarot, BaZi (八字), Zi Wei Dou Shu (紫微斗数), Chinese Zodiac (生肖), and Guanyin Qian (观音灵签) — through AI-powered interpretation.
-
-## 🌟 Features
-
-| Feature | Description | Link |
-|---------|-------------|------|
-| 🀄 **I Ching 64 Hexagrams** | AI-powered interpretations of the 3,000-year-old classic | [Explore →](https://app.oracleluck.com/iching) |
-| 🎭 **30+ Deity Chats** | Chat with Guanyin, Guan Gong, Athena, Anubis and more | [Chat →](https://app.oracleluck.com/deities) |
-| 🃏 **Tarot 78 Cards** | AI readings of Major & Minor Arcana | [Read →](https://app.oracleluck.com/tarot) |
-| 🪷 **Guanyin Qian 100 Slips** | 100 traditional divination slips with stories & poems | [View →](https://reading.oracleluck.com/qian/) |
-| 🔢 **BaZi / Zi Wei** | Chinese astrology and Four Pillars of Destiny | [Explore →](https://app.oracleluck.com/astrology) |
-| 🐉 **Chinese Zodiac** | AI-powered zodiac readings | [Explore →](https://app.oracleluck.com/zodiac) |
-| 🌍 **Trilingual** | Simplified Chinese, Traditional Chinese + English | — |
-| 🔮 **Interactive Divination** | Virtual I Ching coin toss, Tarot draw, Guanyin Qian | [Try →](https://app.oracleluck.com/divine) |
-| 📖 **Knowledge Base** | Full I Ching, Tarot, Constellation, Zodiac, and Divination libraries | [Reading →](https://reading.oracleluck.com/) |
-
-## 🛠 Tech Stack
-
-- **Frontend**: [Next.js 15](https://nextjs.org/) (App Router) + React + TypeScript + Tailwind CSS
-- **AI Engine**: [DeepSeek API](https://deepseek.com/) for content generation and interpretations
-- **Database**: Supabase PostgreSQL (authentication & user data)
-- **Payment**: Creem.io (credit cards) + Alipay A2A
-- **Hosting**: Self-hosted on Ubuntu (Nginx, PM2, UFW)
-
-## 📚 Content Library
-
-- **reading.oracleluck.com** — The knowledge base (解说坊) covering:
-  - 64 I Ching hexagrams with in-depth explanations
-  - 22 Tarot Major Arcana + 56 Minor Arcana
-  - 12 Zodiac signs + 12 Chinese Zodiac animals
-  - 100 Guanyin Divination slips (trilingual: CN/TW/EN)
-  - BaZi (Four Pillars of Destiny) and Zi Wei Dou Shu basics
-- **taiyige.oracleluck.com** — Chinese classical texts library (太乙阁)
-
-## 🔗 Sister Projects
-
-[![MJ7](https://img.shields.io/badge/MJ7-cnc.mj7.cn-red)](https://cnc.mj7.cn)
-[![Moldkey](https://img.shields.io/badge/Moldkey-moldkey.com-green)](https://www.moldkey.com)
-
-- **[mj7.cn](https://mj7.cn)** — CNC machining, injection molding & die casting industry platform (模具/压铸/加工)
-- **[moldkey.com](https://www.moldkey.com)** — Manufacturing platform connecting global buyers with Chinese precision manufacturers
-- **[oracleluck.com](https://oracleluck.com)** — Eastern cultural exploration platform (this project)
-
-## 🤝 Contributing
-
-Contributions are welcome! See our [issues page](https://github.com/moldkey/OracleLuck/issues) for open tasks.
-
-## 📄 License
-
-This project is for educational and cultural purposes. Content is generated using AI and should be used for entertainment and self-reflection only.
+OracleLuck is an AI-powered platform for **Eastern and Western metaphysics** — all readings are computed by real calendrical/astrological engines and explained by AI.
 
 ---
 
-*Ancient Wisdom. Personal Insight.*
-*东方智慧，照见自己。*
-# 🔮 OracleLuck
+## 🀄 知識體系 Systems Covered
 
-> **AI-powered Eastern Cultural Exploration Platform**
-> 东方文化 × AI 阅读平台
+### 東方命理 Eastern
 
-[![Website](https://img.shields.io/badge/Web-oracleluck.com-gold)](https://oracleluck.com)
-[![App](https://img.shields.io/badge/App-app.oracleluck.com-purple)](https://app.oracleluck.com)
-[![Blog](https://img.shields.io/badge/Blog-reading.oracleluck.com-blue)](https://reading.oracleluck.com)
+| 系統 | 頁數 | 連結 |
+|---|---:|---|
+| 紫微斗數（14 主星 / 12 宮位） | 26 | [查看 →](https://www.oracleluck.com/ziwei/star/) |
+| 八字命理（十神 / 干支 / 五行） | 97 | [查看 →](https://www.oracleluck.com/bazi/god/) |
+| 易經六十四卦 | 64 | [查看 →](https://www.oracleluck.com/iching/) |
+| 觀音靈籤 100 支 | 100 | [查看 →](https://www.oracleluck.com/qian/) |
+| 二十四節氣 | 24 | [查看 →](https://www.oracleluck.com/solar-terms/) |
+| 二十八星宿 | 28 | [查看 →](https://www.oracleluck.com/mansions/) |
 
-OracleLuck is a **bilingual (Chinese/English)** platform that explores Eastern cultural classics — the I Ching (易经), Tarot, BaZi (八字), Zi Wei Dou Shu (紫微斗数), and Chinese Zodiac (生肖) — through AI-powered interpretation.
+### 西方與其他 Western & More
 
-## 🌟 Features
-
-| Feature | Description | Link |
-|---------|-------------|------|
-| 🀄 **I Ching 64 Hexagrams** | AI-powered interpretations of the 3,000-year-old classic | [Explore →](https://app.oracleluck.com/iching) |
-| 🎭 **30+ Deity Chats** | Chat with Guanyin, Guan Gong, Athena, Anubis and more | [Chat →](https://app.oracleluck.com/deities) |
-| 🃏 **Tarot 78 Cards** | AI readings of Major & Minor Arcana | [Read →](https://app.oracleluck.com/tarot) |
-| 🪷 **Guanyin Qian 100 Slips** | Traditional Chinese oracle with modern interpretations | [Draw →](https://app.oracleluck.com/qian/guanyin) |
-| 🔢 **BaZi / Zi Wei** | Chinese astrology and Four Pillars of Destiny | [Explore →](https://app.oracleluck.com/astrology) |
-| 🐉 **Chinese Zodiac** | AI-powered zodiac readings | [Explore →](https://app.oracleluck.com/zodiac) |
-| 🌍 **Bilingual** | All content in Chinese (Simplified & Traditional) + English | — |
-| 🔮 **Interactive Divination** | Virtual I Ching coin toss, Tarot draw, and Guanyin Qian | [Try →](https://app.oracleluck.com/divine) |
-
-## 🛠 Tech Stack
-
-- **Frontend**: [Next.js 15](https://nextjs.org/) (App Router) + React + TypeScript + Tailwind CSS
-- **AI Engine**: [DeepSeek API](https://deepseek.com/) for content generation and interpretations
-- **Database**: Supabase PostgreSQL (authentication & user data)
-- **Payment**: PayPal Subscriptions (membership model)
-- **Hosting**: Self-hosted on Ubuntu (Nginx, PM2)
-
-## 📚 Content
-
-The platform features over **2,600 AI-generated pages** covering:
-- 64 hexagrams × 40 life scenarios (career, love, health, wealth, family, etc.)
-- 100 Guanyin Qian oracle slips with full interpretations
-- Real-time interactive divination tools
-
-## 🤝 Contributing
-
-Contributions are welcome! See our [issues page](https://github.com/moldkey/OracleLuck/issues) for open tasks.
-
-## 📄 License
-
-This project is for educational and cultural purposes. Content is generated using AI and should be used for entertainment and self-reflection only.
+| 系統 | 頁數 | 連結 |
+|---|---:|---|
+| 塔羅 78 張完整牌義 | 78 | [查看 →](https://www.oracleluck.com/tarot/) |
+| 塔羅牌陣 | 12 | [查看 →](https://www.oracleluck.com/tarot/spreads/) |
+| 周公解夢 | 150 | [查看 →](https://www.oracleluck.com/dream/) |
+| 西洋十二星座 | 12 | [查看 →](https://www.oracleluck.com/astrology/) |
+| 十二生肖 | 12 | [查看 →](https://www.oracleluck.com/zodiac/) |
 
 ---
 
-*Ancient Wisdom. Personal Insight.*  
-*东方智慧，照见自己。*
+## 🤖 AI 工具 AI Tools
+
+| 功能 | 說明 | 連結 |
+|---|---|---|
+| 🔮 **AI 問事** | 20 個神明角色的對話，先問診再給建議，每則附依據與合規聲明 | [開始 →](https://www.oracleluck.com/chat/) |
+| 📚 **學科助教** | 12 個玄學學科的 AI 家教，四步教學法（拆解→示範→出題→批改） | [開始 →](https://www.oracleluck.com/chat/?mode=learn) |
+| 📷 **塔羅拍照解讀** | 拍下牌面 → AI 辨識（含正逆位）→ 結合站內牌義解讀 | [試試 →](https://www.oracleluck.com/tarot/photo/) |
+| 🏠 **風水照片問診** | 上傳住宅/商辦/學校/地皮照片，AI 先確認類型再給可逆建議 | [試試 →](https://www.oracleluck.com/fengshui/photo/) |
+| 📜 **命盤報告** | 八字／紫微真排盤 + 十節完整分析，可列印 PDF | [查看 →](https://www.oracleluck.com/report/bazi/) |
+
+---
+
+## 📊 開源資料集 Open Datasets
+
+這個 repo 也開源了排盤引擎用的**結構化資料層**：
+
+| 檔案 | 內容 | 筆數 |
+|---|---|---:|
+| [`data/tarot-78.json`](data/tarot-78.json) | 塔羅 78 張完整牌義（中英、正逆位、愛情、事業、建議） | 78 |
+| [`data/ganzhi60.json`](data/ganzhi60.json) | 六十甲子 + 五行 + 納音 | 60 |
+| [`data/year_ganzhi.json`](data/year_ganzhi.json) | 年干支生肖表 1900–2100 | 201 |
+| [`data/calendar_2026_2028.json`](data/calendar_2026_2028.json) | 逐日黃曆：農曆、干支、節氣、六曜 | 1,096 天 |
+| [`data/solar-terms.json`](data/solar-terms.json) | 二十四節氣精確日期 | 72 |
+| [`data/rokuyo_table.json`](data/rokuyo_table.json) | 六曜對照表（日本） | 360 |
+| [`data/kyusei9.json`](data/kyusei9.json) | 九星気学（日本） | 9 |
+| [`data/nakshatra27.json`](data/nakshatra27.json) | 印度二十七宿 | 27 |
+| [`data/western-astrology.json`](data/western-astrology.json) | 西洋占星對照（行星/星座/宮/相位） | — |
+
+**授權 License**：資料 CC BY-NC 4.0（需標註來源、不得商業使用）
+
+### 免 key 公開 API
+
+```
+https://www.oracleluck.com/data/rules/                        規則表索引
+https://www.oracleluck.com/data/rules/calendar_2026_2028.json
+https://www.oracleluck.com/data/rules/ganzhi60.json
+https://www.oracleluck.com/data/rules/rokuyo_table.json
+https://www.oracleluck.com/data/kg.json                       知識圖譜
+```
+
+---
+
+## 🛠 技術架構 Tech Stack
+
+- **CMS**: Django 5.2 + PostgreSQL（自建，非 Next.js）
+- **前端**: 預編譯 Tailwind CSS（無 CDN 依賴）
+- **AI**: DeepSeek-V4.1-Flash（支援視覺）
+- **部署**: Ubuntu + Nginx + Gunicorn
+- **SEO**: 動態 sitemap（753 URL）+ IndexNow + 結構化數據
+
+---
+
+## 🌏 多語言 Languages
+
+繁體中文 · 简体中文 · English · **日本語**（166 頁已翻譯）
+
+---
+
+## ⚖️ 合規 Compliance
+
+- 所有解讀標明「依據」與「非宗教啟示」
+- 不預言生死、疾病、災禍
+- 不做醫療、法律、投資建議
+- 風水只給可逆建議，施工／結構／水電一律轉介專業
+- 完整免責聲明：[www.oracleluck.com/terms/](https://www.oracleluck.com/terms/)
+
+---
+
+## 🔗 相關連結 Links
+
+- 🌐 網站：[www.oracleluck.com](https://www.oracleluck.com)
+- 📚 知識庫總覽：[www.oracleluck.com/library/](https://www.oracleluck.com/library/)
+- 💬 AI 對話：[www.oracleluck.com/chat/](https://www.oracleluck.com/chat/)
+- 📷 塔羅拍照：[www.oracleluck.com/tarot/photo/](https://www.oracleluck.com/tarot/photo/)
+- 🏠 風水問診：[www.oracleluck.com/fengshui/](https://www.oracleluck.com/fengshui/)
+- ⚖️ 免責聲明：[www.oracleluck.com/terms/](https://www.oracleluck.com/terms/)
+
+---
+
+## 📄 License
+
+資料檔案 CC BY-NC 4.0 · 範例程式碼 MIT · Copyright (c) 2026 OracleLuck

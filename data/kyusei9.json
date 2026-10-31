@@ -1,0 +1,15 @@
+{
+  "meta": {"name": "九星気学（日本）", "version": 1, "lang": ["ja", "zh-TW"]},
+  "note": "九星気学（きゅうせいきがく）：一白水星至九紫火星，以出生年與方位推算運勢",
+  "stars": [
+    {"num": 1, "name": "一白水星", "zh": "一白水星", "element": "水", "trait": "柔和、順應、人緣好", "strength": "溝通、協調、靈活", "weakness": "優柔寡斷、依賴"},
+    {"num": 2, "name": "二黒土星", "zh": "二黑土星", "element": "土", "trait": "勤勉、照顧、踏實", "strength": "耐力、責任感、務實", "weakness": "操心過度、保守"},
+    {"num": 3, "name": "三碧木星", "zh": "三碧木星", "element": "木", "trait": "行動、積極、直率", "strength": "開創、決斷、行動力", "weakness": "急躁、衝突、缺乏耐性"},
+    {"num": 4, "name": "四緑木星", "zh": "四綠木星", "element": "木", "trait": "誠實、信用、協調", "strength": "人際、信譽、溝通", "weakness": "猶豫、過度在意評價"},
+    {"num": 5, "name": "五黄土星", "zh": "五黃土星", "element": "土", "trait": "中心、權威、支配", "strength": "領導、統御、影響力", "weakness": "專斷、易受變化衝擊"},
+    {"num": 6, "name": "六白金星", "zh": "六白金星", "element": "金", "trait": "果斷、責任、尊嚴", "strength": "決斷、組織、擔當", "weakness": "固執、面子重"},
+    {"num": 7, "name": "七赤金星", "zh": "七赤金星", "element": "金", "trait": "活潑、口才、社交", "strength": "表達、談判、人緣", "weakness": "浮動、享樂、口舌"},
+    {"num": 8, "name": "八白土星", "zh": "八白土星", "element": "土", "trait": "穩重、變革、累積", "strength": "轉變、經營、積累", "weakness": "反覆、起步慢"},
+    {"num": 9, "name": "九紫火星", "zh": "九紫火星", "element": "火", "trait": "熱情、直覺、明亮", "strength": "洞察、表現、感染力", "weakness": "情緒化、易怒"}
+  ]
+}

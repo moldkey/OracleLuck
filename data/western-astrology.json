@@ -1,0 +1,50 @@
+{
+  "meta": {"name": "西洋占星基础对应表", "version": 1, "lang": ["zh-TW", "en"]},
+  "planets": [
+    {"name": "Sun", "zh": "太阳", "key": "自我、意志、生命力", "cycle": "1 年"},
+    {"name": "Moon", "zh": "月亮", "key": "情緒、需求、安全感", "cycle": "28 天"},
+    {"name": "Mercury", "zh": "水星", "key": "思維、溝通、學習", "cycle": "88 天"},
+    {"name": "Venus", "zh": "金星", "key": "情感、審美、價值觀", "cycle": "225 天"},
+    {"name": "Mars", "zh": "火星", "key": "行動、慾望、衝突", "cycle": "687 天"},
+    {"name": "Jupiter", "zh": "木星", "key": "擴張、信念、機會", "cycle": "12 年"},
+    {"name": "Saturn", "zh": "土星", "key": "限制、責任、時間", "cycle": "29.5 年"},
+    {"name": "Uranus", "zh": "天王星", "key": "突變、自由、覺醒", "cycle": "84 年"},
+    {"name": "Neptune", "zh": "海王星", "key": "夢幻、界限、靈性", "cycle": "165 年"},
+    {"name": "Pluto", "zh": "冥王星", "key": "毀滅、重生、權力", "cycle": "248 年"}
+  ],
+  "signs": [
+    {"name": "Aries", "zh": "牡羊座", "elem": "火", "mode": "開創", "date": "3/21-4/19"},
+    {"name": "Taurus", "zh": "金牛座", "elem": "土", "mode": "固定", "date": "4/20-5/20"},
+    {"name": "Gemini", "zh": "雙子座", "elem": "風", "mode": "變動", "date": "5/21-6/21"},
+    {"name": "Cancer", "zh": "巨蟹座", "elem": "水", "mode": "開創", "date": "6/22-7/22"},
+    {"name": "Leo", "zh": "獅子座", "elem": "火", "mode": "固定", "date": "7/23-8/22"},
+    {"name": "Virgo", "zh": "處女座", "elem": "土", "mode": "變動", "date": "8/23-9/22"},
+    {"name": "Libra", "zh": "天秤座", "elem": "風", "mode": "開創", "date": "9/23-10/23"},
+    {"name": "Scorpio", "zh": "天蠍座", "elem": "水", "mode": "固定", "date": "10/24-11/22"},
+    {"name": "Sagittarius", "zh": "射手座", "elem": "火", "mode": "變動", "date": "11/23-12/21"},
+    {"name": "Capricorn", "zh": "摩羯座", "elem": "土", "mode": "開創", "date": "12/22-1/19"},
+    {"name": "Aquarius", "zh": "水瓶座", "elem": "風", "mode": "固定", "date": "1/20-2/18"},
+    {"name": "Pisces", "zh": "雙魚座", "elem": "水", "mode": "變動", "date": "2/19-3/20"}
+  ],
+  "houses": [
+    {"n": 1, "name": "命宮", "key": "自我形象、人生方向"},
+    {"n": 2, "name": "財帛宮", "key": "金錢、資源、價值"},
+    {"n": 3, "name": "兄弟宮", "key": "溝通、學習、近親"},
+    {"n": 4, "name": "家庭宮", "key": "家庭、根基、內在安全"},
+    {"n": 5, "name": "子女宮", "key": "創造、戀愛、子女"},
+    {"n": 6, "name": "工作宮", "key": "日常、健康、服務"},
+    {"n": 7, "name": "夫妻宮", "key": "伴侶、合作、契約"},
+    {"n": 8, "name": "疾厄宮", "key": "共享資源、轉化、生死"},
+    {"n": 9, "name": "遷移宮", "key": "遠行、信念、高等教育"},
+    {"n": 10, "name": "官祿宮", "key": "事業、名聲、社會地位"},
+    {"n": 11, "name": "福德宮", "key": "朋友、群體、理想"},
+    {"n": 12, "name": "玄秘宮", "key": "潛意識、隱藏、靈性"}
+  ],
+  "aspects": [
+    {"name": "Conjunction", "zh": "合相", "deg": 0, "key": "融合、強化"},
+    {"name": "Sextile", "zh": "六分相", "deg": 60, "key": "機會、協調"},
+    {"name": "Square", "zh": "四分相", "deg": 90, "key": "張力、衝突、成長"},
+    {"name": "Trine", "zh": "三分相", "deg": 120, "key": "順暢、天賦"},
+    {"name": "Opposition", "zh": "對分相", "deg": 180, "key": "對立、平衡、投射"}
+  ]
+}

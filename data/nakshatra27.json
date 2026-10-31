@@ -1,0 +1,33 @@
+{
+  "meta": {"name": "印度二十七宿 Nakshatra", "version": 1, "lang": ["zh-TW", "en"]},
+  "note": "吠陀占星 Jyotish 的二十七宿，每宿 13°20'，由月球位置決定",
+  "items": [
+    {"i": 1, "name": "Ashwini", "zh": "阿湿毗尼", "ruler": "Ketu", "trait": "快速、开创、行动"},
+    {"i": 2, "name": "Bharani", "zh": "婆罗尼", "ruler": "Venus", "trait": "承担、欲望、转化"},
+    {"i": 3, "name": "Krittika", "zh": "羯底迦", "ruler": "Sun", "trait": "锐利、切割、净化"},
+    {"i": 4, "name": "Rohini", "zh": "罗希尼", "ruler": "Moon", "trait": "丰美、吸引、生育"},
+    {"i": 5, "name": "Mrigashira", "zh": "末伽始罗", "ruler": "Mars", "trait": "寻找、探索、好奇"},
+    {"i": 6, "name": "Ardra", "zh": "阿罗陀", "ruler": "Rahu", "trait": "风暴、突破、情绪"},
+    {"i": 7, "name": "Punarvasu", "zh": "补那婆苏", "ruler": "Jupiter", "trait": "回归、更新、宽容"},
+    {"i": 8, "name": "Pushya", "zh": "布湿耶", "ruler": "Saturn", "trait": "养育、保护、秩序"},
+    {"i": 9, "name": "Ashlesha", "zh": "阿湿离娑", "ruler": "Mercury", "trait": "缠绕、洞察、执着"},
+    {"i": 10, "name": "Magha", "zh": "摩伽", "ruler": "Ketu", "trait": "传承、尊贵、权威"},
+    {"i": 11, "name": "Purva Phalguni", "zh": "前婆罗求尼", "ruler": "Venus", "trait": "享乐、创造、魅力"},
+    {"i": 12, "name": "Uttara Phalguni", "zh": "后婆罗求尼", "ruler": "Sun", "trait": "承诺、互助、稳定"},
+    {"i": 13, "name": "Hasta", "zh": "诃萨多", "ruler": "Moon", "trait": "灵巧、技艺、疗愈"},
+    {"i": 14, "name": "Chitra", "zh": "质多罗", "ruler": "Mars", "trait": "设计、美感、显眼"},
+    {"i": 15, "name": "Swati", "zh": "婆底", "ruler": "Rahu", "trait": "独立、流动、商贸"},
+    {"i": 16, "name": "Vishakha", "zh": "毗沙迦", "ruler": "Jupiter", "trait": "目标、野心、成就"},
+    {"i": 17, "name": "Anuradha", "zh": "阿奴罗陀", "ruler": "Saturn", "trait": "友谊、忠诚、坚持"},
+    {"i": 18, "name": "Jyeshtha", "zh": "逝瑟吒", "ruler": "Mercury", "trait": "资深、权威、保护"},
+    {"i": 19, "name": "Mula", "zh": "牟罗", "ruler": "Ketu", "trait": "根源、破坏、寻真"},
+    {"i": 20, "name": "Purva Ashadha", "zh": "前阿沙陀", "ruler": "Venus", "trait": "传播、说服、理想"},
+    {"i": 21, "name": "Uttara Ashadha", "zh": "后阿沙陀", "ruler": "Sun", "trait": "胜利、持久、正直"},
+    {"i": 22, "name": "Shravana", "zh": "室罗婆那", "ruler": "Moon", "trait": "聆听、学习、连结"},
+    {"i": 23, "name": "Dhanishta", "zh": "檀尼逝吒", "ruler": "Mars", "trait": "节奏、财富、群体"},
+    {"i": 24, "name": "Shatabhisha", "zh": "娑多毗舍", "ruler": "Rahu", "trait": "隐秘、疗愈、独立"},
+    {"i": 25, "name": "Purva Bhadrapada", "zh": "前婆陀罗波陀", "ruler": "Jupiter", "trait": "理想、极端、转化"},
+    {"i": 26, "name": "Uttara Bhadrapada", "zh": "后婆陀罗波陀", "ruler": "Saturn", "trait": "深稳、慈悲、守护"},
+    {"i": 27, "name": "Revati", "zh": "离婆底", "ruler": "Mercury", "trait": "圆满、护送、慈悲"}
+  ]
+}
