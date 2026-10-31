@@ -81,6 +81,70 @@ https://www.oracleluck.com/data/kg.json                       知識圖譜
 
 ---
 
+## 🧩 免費黃曆 Widget（可嵌入任何網站）
+
+一行 iframe，就能在你的網站顯示今日黃曆（干支、農曆、六曜、建除、沖煞）：
+
+```html
+<iframe src="https://www.oracleluck.com/embed/almanac/"
+        width="320" height="200" frameborder="0"
+        style="border-radius:12px"></iframe>
+```
+
+指定日期：
+
+```html
+<iframe src="https://www.oracleluck.com/embed/almanac/?date=2027-01-01"
+        width="320" height="200" frameborder="0"></iframe>
+```
+
+- 免費、免註冊、自動更新
+- 純 HTML 2KB，無外部字體、無追蹤腳本
+- 底部固定帶署名連結（使用條件）
+
+**線上工具**：[黃曆查詢](https://www.oracleluck.com/tools/almanac/) · [八字排盤](https://www.oracleluck.com/tools/bazi/)
+
+---
+
+## 🔌 免費 JSON API
+
+免 API key、免註冊，直接 GET：
+
+```bash
+# 單日黃曆
+curl "https://www.oracleluck.com/api/tools/almanac/?date=2026-10-31"
+
+# 八字排盤
+curl "https://www.oracleluck.com/api/tools/bazi/?date=1993-05-16&time=12:00"
+
+# 全量日曆（1,096 天）
+curl "https://www.oracleluck.com/data/rules/calendar_2026_2028.json"
+```
+
+回應範例：
+
+```json
+{
+  "date": "2026-10-31",
+  "lunar": "九月廿二",
+  "year_gz": "丙午",
+  "month_gz": "戊戌",
+  "day_gz": "戊寅",
+  "rokuyo": "赤口",
+  "jianchu": "定",
+  "chong": "申",
+  "chong_zodiac": "猴"
+}
+```
+
+- 限流 240 次/分鐘/IP
+- 可商業使用（標註來源）
+- **完整文檔**：[www.oracleluck.com/docs/api/](https://www.oracleluck.com/docs/api/)
+- **教學文章**：[免費黃曆 API 使用教學](https://www.oracleluck.com/insight/free-almanac-api-tutorial/) · [如何嵌入黃曆 Widget](https://www.oracleluck.com/insight/embed-free-almanac-widget/)
+
+
+---
+
 ## 🛠 技術架構 Tech Stack
 
 - **CMS**: Django 5.2 + PostgreSQL（自建，非 Next.js）
